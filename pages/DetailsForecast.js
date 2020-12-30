@@ -46,7 +46,7 @@ const DetailsForecast = () => {
       {data && (
         <main className={styles.main}>
           <div className={styles.element}>
-            <p className={styles.description}>{convertDate(data.dt)}</p>
+            <p className={styles.descriptiontime}>{convertDate(data.dt)}</p>
 
             <CardInfo info={`${data.weather[0].description}`} />
             <CardInfo

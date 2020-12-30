@@ -39,7 +39,9 @@ const DetailsCity = () => {
         <main className={styles.main}>
           <div className={styles.element}>
             <h2 className={styles.title}>{data.name}</h2>
-            <p className={styles.description}>{new Date().toLocaleString()}</p>
+            <p className={styles.descriptiontime}>
+              {new Date().toLocaleString()}
+            </p>
             <CardInfo
               icon={
                 data.weather[0].main === "haze" ? (
