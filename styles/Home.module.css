@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #302c2c;
+  background-color: #c8a3ff;
 }
 
 .main {
@@ -18,8 +18,8 @@
 }
 .element {
   border-radius: 50px;
-  background: #302c2c;
-  box-shadow: 20px 20px 60px #292525, -20px -20px 60px #373333;
+  background: #c8a3ff;
+  box-shadow: 20px 20px 60px #aa8bd9, -20px -20px 60px #e6bbff;
   min-height: 300px;
 
   width: 500px;
@@ -28,8 +28,8 @@
 }
 .elementforecast {
   border-radius: 50px;
-  background: #302c2c;
-  box-shadow: 20px 20px 60px #292525, -20px -20px 60px #373333;
+  background: #c8a3ff;
+  box-shadow: 20px 20px 60px #aa8bd9, -20px -20px 60px #e6bbff;
   min-height: 200px;
   width: 300px;
   justify-content: center;
@@ -103,8 +103,8 @@
 @media (max-width: 600px) {
   .element {
     border-radius: 50px;
-    background: #302c2c;
-    box-shadow: 20px 20px 60px #292525, -20px -20px 60px #373333;
+    background: #c8a3ff;
+    box-shadow: 20px 20px 60px #aa8bd9, -20px -20px 60px #e6bbff;
     min-height: 300px;
 
     width: 350px;
@@ -113,8 +113,8 @@
   }
   .elementforecast {
     border-radius: 50px;
-    background: #302c2c;
-    box-shadow: 20px 20px 60px #292525, -20px -20px 60px #373333;
+    background: #c8a3ff;
+    box-shadow: 20px 20px 60px #aa8bd9, -20px -20px 60px #e6bbff;
     min-height: 200px;
     width: 250px;
     justify-content: center;
