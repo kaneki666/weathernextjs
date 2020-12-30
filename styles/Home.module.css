@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #c8a3ff;
+  background-color: #827dca;
 }
 
 .main {
@@ -18,20 +18,19 @@
 }
 .element {
   border-radius: 50px;
-  background: #c8a3ff;
-  box-shadow: 20px 20px 60px #aa8bd9, -20px -20px 60px #e6bbff;
+  background: #827dca;
+  box-shadow: 20px 20px 60px #6f6aac, -20px -20px 60px #9690e8;
   min-height: 300px;
-
   width: 500px;
   justify-content: center;
   align-items: center;
 }
 .elementforecast {
   border-radius: 50px;
-  background: #c8a3ff;
-  box-shadow: 20px 20px 60px #aa8bd9, -20px -20px 60px #e6bbff;
+  background: #827dca;
+  box-shadow: 20px 20px 60px #6f6aac, -20px -20px 60px #9690e8;
   min-height: 200px;
-  width: 300px;
+  width: 340px;
   justify-content: center;
   align-items: center;
   margin: 15px;
@@ -73,9 +72,10 @@
 }
 .descriptiontime {
   text-align: center;
-  margin: 15px;
+  margin-top: 15px;
   color: white;
   text-transform: capitalize;
+  font-size: 1.2rem;
 }
 
 .description {
@@ -103,20 +103,20 @@
 @media (max-width: 600px) {
   .element {
     border-radius: 50px;
-    background: #c8a3ff;
-    box-shadow: 20px 20px 60px #aa8bd9, -20px -20px 60px #e6bbff;
-    min-height: 300px;
+    background: #827dca;
+    box-shadow: 20px 20px 60px #6f6aac, -20px -20px 60px #9690e8;
 
+    min-height: 300px;
     width: 350px;
     justify-content: center;
     align-items: center;
   }
   .elementforecast {
     border-radius: 50px;
-    background: #c8a3ff;
-    box-shadow: 20px 20px 60px #aa8bd9, -20px -20px 60px #e6bbff;
+    background: #827dca;
+    box-shadow: 20px 20px 60px #6f6aac, -20px -20px 60px #9690e8;
     min-height: 200px;
-    width: 250px;
+    width: 280px;
     justify-content: center;
     align-items: center;
     margin: 25px;
